@@ -15,7 +15,7 @@ if response.status_code == 200:
 # for i in data[0]:
 #     print(i["id"])
     print(data)
-    print("history")
+    print("history is written")
 else:
     print(response.status_code)
     assert False
